@@ -10,7 +10,7 @@ This year we will work on *Good Health and Wellbeing* which is a UN [Sustainable
 ## Setup
 During the course of the project you will create data visualisations and data stories from a human perspective. This means designing data visualisations representing the real lives of people and their behaviour.
 
-The next half year, students from all around the world will work together in cross cultural teams.
+The next half year, students from all around the world will work together in cross cultural groups.
 
 ## Best practices
 Hoe pak je het werken met data aan? Deze best practices zijn geschreven om je hiermee te helpen.
@@ -26,7 +26,7 @@ Hoe pak je het werken met data aan? Deze best practices zijn geschreven om je hi
 
 https://5stardata.info/en/
 
-### Team member profile page
+### Group member profile page
 
 ### Publishing files
 
