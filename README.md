@@ -42,6 +42,7 @@ Use PNG or JPEG images, not more than around 1 MB in size.
 ## Technical support
 
 ### Resources
+- [How to set up a repository for your group's project](resources/github-basics.md)
 - Iets over markdown, wordt mss een losse pagina
 - Basic uitleg over Github en de verschillende manieren waarop je met Github kan interfaced (web/GUI/terminal)
 
