@@ -15,36 +15,34 @@ The next half year, students from all around the world will work together in cro
 
 ## Best practices
 
-Although the projects you will work on the coming months will vary widely, some things will be similar for all groups: all of you will use existing data, use GitHub to share information about yourself, your team and your project. And at the end of the semester, you will publish the results of your project online.
+Although the projects you will work on the coming months will vary widely, some things will be similar for all groups: all of you will use existing data sources, and you will use GitHub to share information about yourself, your team and your project. And, at the end of the semester, you will publish the results of your project online.
 
 The sections below contain some best practices about sharing data, files, and publishing your work.
 
 ### Using, sharing and describing data
 
-- Iets over de kwaliteit van data
-- Denk na over de rol van de auteur van de data en de eigenaar
-- Kijk kritisch naar de scope van de data, wat mist er in deze data? Zijn er groepen mensen bijv. die buiten beschouwing blijven?
-- Zoek niet data om je verhaal te ondersteunen. Het zou andersom moeten gaan, het verhaal volgt uit patronen in de data.
-- Think about the lifespan of your data. Is there a chance the data will change or dissapear? Then it might be a good idea to download it and include it in your project repo or to host the file yourself.
-- Before you use data, be sure to check the license and copyright.
-- Sometimes, you will need to make changes to existing data, or combine multiple existing data sources. In that case, be sure to document all changes you make!
-- CSV: https://en.wikipedia.org/wiki/Comma-separated_values. GitHub supports CSV files as well, and makes viewing them very easy.
+- Before you use any data sources you find online, be sure to check the license and copyright. Are you allowed to do with the data what you want?
+- Always keep track of all the data sources you are using, where you've found them, and when. Publish this documentation as part of your project's documentation.
+- Always ask yourself: who collected this data source, who owns it, and why was it published? Think about what might be missing?
+- Think about the lifespan of your data sources. Is there a chance the data will change or dissapear? Then, it might be a good idea to make a copy of the files you need and include these in your project.
+- Sometimes, you will need to make changes to existing data, or combine multiple existing data sources. In that case, be sure to document all changes you make and publish them in your project's documentation.
 
 ### Publishing files
 
-- __Images__:
-- __Documents__:
-- __Video__: YouTube or Vimeo to upload
-- __URLs to websites__:
-- __Other files__:
+Most likely, your project will contain more than just text. During your research you will collect and produce data, documents, images and other types of content. Below are a few things to keep in mind when using and publishing such files:
+
+- __Images__: JPEG and PNG are supported by all browsers and mobile phones. Think about the file size and resolution of your image files: there's usually no need to include full-size images in your project. There are many free-to-use websites and tools available to resize images.
+- __Documents__: It's always a good idea to publish documents in a format that's easily opened and viewed by as many people as possible, without the need for proprietary software. PDF is a good choice, HTML is great, and GitHub has built-in support for [Markdown](https://guides.github.com/features/mastering-markdown/) files.
+- __Video__: Video files can get very large, very fast. If your video is over 25 MB, you can try uploading your video to YouTube or Vimeo and include a link to the video in your project, instead of the complete video itself.
+- __Data__: When you're creating data yourself or copy parts of an existing dataset, CSV and JSON are good candidates for file formats. GitHub supports viewing these files, and working with them is easy.
 
 The maximum file size GitHub you can upload to GitHub [is 100 MB](https://docs.github.com/en/github/managing-large-files/what-is-my-disk-quota).
 
 ### Sharing your work
 
-- Presentation, PDF, Google Sheets
-- Simple HTML web page, for example with [GitHub Pages](https://pages.github.com/)
-- Document, PDF, Markdown on GitHub,
+- __A simple HTML web page__: For example with [GitHub Pages](https://pages.github.com/).
+- __Presentation__:, PDF,
+- __A document__: PDF, Markdown,
 
 ## Technical support
 
