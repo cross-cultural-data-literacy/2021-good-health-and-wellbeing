@@ -19,6 +19,9 @@ Although the projects you will work on the coming months will vary widely, some 
 
 The sections below contain some best practices about sharing data, files, and publishing your work.
 
+### Finding and exploring data
+- Start by reading [this introductionary guide](resources/finding-and-exploring-data.md) into finding and exploring data.
+
 ### Using, sharing and describing data
 
 - Before you use any data sources you find online, be sure to check the license and copyright. Are you allowed to do with the data what you want?
@@ -47,9 +50,8 @@ The maximum file size GitHub you can upload to GitHub [is 100 MB](https://docs.g
 ## Technical support
 
 ### Resources
-- [How to set up a repository for your group's project](resources/github-basics.md)
-- Iets over markdown, wordt mss een losse pagina
-- Basic uitleg over Github en de verschillende manieren waarop je met Github kan interfaced (web/GUI/terminal)
+- [How use Github to set up a repository for your group's project](resources/github-basics.md)
+- [How to use markdown](https://guides.github.com/features/mastering-markdown/)
 
 ### Help
 If you struggle with the setup of your project or with any of the best practices, please reach out to [Laurens](https://github.com/Razpudding) and [Bert](https://github.com/bertspaan) in our Slack workspace.
