@@ -74,7 +74,7 @@ Some patterns only become visible when you visualize data. For instance by makin
 ### Using tools
 You can read through raw data using any text editor but most datasets are simply to large to understand in this manner. Here are some tools to help you out, ordered by ease of use.
 
-#### Excel(windows)/Numbers(mac)/Google Sheets(web)
+#### Excel (windows), Numbers (mac), Google Sheets (web)
 Excel (and its Mac and Web based alternatives) is the most common tool used in exploring data. Some file types can be opened straight away with excel and some may need to be [imported](https://support.microsoft.com/en-us/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba). If you do this correctly, each column should represent a different variable in your dataset and each row should represent one datapoint.
 
 One powerful (and slightly more advanced) feature that allows you to find _correlations_ between different variables is _pivot tables_. Using them you can quickly throw variables into a table to see how they relate. This is how to use pivot tables in [Excel](https://www.youtube.com/watch?v=qu-AK0Hv0b4&ab_channel=CodyBaldwin), [Numbers](https://macmost.com/simulating-pivot-tables-in-numbers.html), and [Google Sheets](https://support.google.com/docs/answer/1272900?co=GENIE.Platform%3DDesktop&hl=en).
@@ -92,7 +92,7 @@ These are programs designed for statistical analysis. Takes a bit of practice to
 If you know how to code, you can import, clean, manipulate, transform, analyze and visualize data all by yourself! It takes a lot of work to understand how to do this but it does allow for the most control over your data. If you don't know how to code yet, be aware it takes serious time to learn.
 
 #### Javascript
--[D3.js](https://d3js.org/): amazing for cleaning, transforming, exploring and visualizing data. I can highly recommend [this free course on data visualization with D3 by Curran Kelleher](https://curran.github.io/dataviz-course-2018/).
+- [D3.js](https://d3js.org/): amazing for cleaning, transforming, exploring and visualizing data. I can highly recommend [this free course on data visualization with D3 by Curran Kelleher](https://curran.github.io/dataviz-course-2018/).
 - [Chart.js](https://www.chartjs.org/): chart generator which does a lot of work for you in visualizing data.
 
 #### Python
