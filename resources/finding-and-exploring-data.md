@@ -1,5 +1,7 @@
 # Finding and Exploring Data
-![Image of a person embarking on data exploration](./images/data_exploration.jpg)
+![Image of a person embarking on data exploration](../images/data_exploration.png)
+
+_source:<span>Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/s/photos/relations-data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>_
 
 This guide is meant to help you get started on finding data and exploring patterns within it. It's definitely not a conclusive guide. If you're looking for something more complete, check out the books mentioned at the end of the guide.
 
