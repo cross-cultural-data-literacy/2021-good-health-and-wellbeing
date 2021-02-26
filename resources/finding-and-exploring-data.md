@@ -1,8 +1,8 @@
 TODO:
 - Research for data verkennen op bronnen en tips
-- Tools installeren
 - Tutorial voor elke tool zoeken
 - Boeken zoeken
+- Voorbeeld toevoegen bij excel verkenning
 - Verschil tussen proof/reference/source and a data source. A reference you found supporting a claim you make is not a data source. If your project makes the claim that mental health has declined and you reference an article that describes a 40% increase in new patients for psychiatrists, that is not a data source, simply a reference. If the article includes a graph that shows the increase, that's also not a data source. The data behind that graph is, however. Make a clear difference in your work between sources you use and actual data you use. When we talk about data in this guide, we mean data as a collection of datapoints.
 
 # Finding and Exploring Data
@@ -54,18 +54,31 @@ Understanding data is a complex mental process. It starts with metadata like:
 - What does each variable in your data describe for instance
     + Time, location, amount
     + 14:48; 36.9, -4.8; 28000
-When you understand the metadata you have, you can start to explore the data. By asking yourself questions about it like "are there differences between datapoints collected during the week versus during the weekend?" You will start to see patterns in the data which will trigger new questions to be answered. Read [this article](https://datahero.com/blog/2013/11/20/5-beginners-steps-to-investigating-your-dataset/) to understand more about the mental process you go through.
+- Is the data representative? If it's data about a population, are all people represented equally in the dataset? Are certain groups missing or underrepresented? What does that mean for the validity of the data?
 
+When you understand the metadata you have, you can start to explore the data. By asking yourself questions about it like "are there differences between datapoints collected during the week versus during the weekend?" You will start to see patterns in the data which will trigger new questions to be answered. Read [this article](https://datahero.com/blog/2013/11/20/5-beginners-steps-to-investigating-your-dataset/) to understand more about the mental process you go through while exploring data.
 
-Snifftest: https://www.youtube.com/watch?v=OIafM8pGbfQ&ab_channel=KnightCenterCourses
-https://journalismcourses.org/course/data-visualization-for-storytelling-and-discovery/
+**Understanding each variable**
+You can start by scrolling through a column to get an idea of the content of that column. It often makes sense to order the column and see what the highest and lowest values represent. This is also the best time to look for obvious mistakes in the data and missing values. You can also make data more readable by telling excel all values in a columna re of a certain type like date, number or text. [Here's a great guide on understanding and cleaning up data in individual columns](https://www.youtube.com/watch?v=OIafM8pGbfQ&ab_channel=KnightCenterCourseshttps%3A%2F%2Fjournalismcourses.org%2Fcourse%2Fdata-visualization-for-storytelling-and-discovery%2F).
 
+**Understanding a datapoint**
+When you understand what individual columns mean, a crucial step is to understand individual datapoints. This step is often overlooked and possibly the most crucial in understanding the subjects of the data. In the video linked above, the data is about real people. You can't fully understand what one value in one column means without knowing more about the subject. A common misconception is that data is objective, data doesn't lie. This is wrong for many reasons and you can only ever hope to get closer to the truth about your subject through data.
+Try to understand what the data can tell you about a few individual datapoints by reading the values in each column for one row of data. Think about what this dataset can and **can't** tell you about its subjects. You may start to see some patterns in the data already when looking at the similarities and differences between datapoints.
+
+**Understanding patterns**
+Start by writing down assumptions you have about the data. For instance: I expect more customers visit the shop right after 17:00 because that's when people get out of work. 
 
 ### Using tools
-- Excel
-- Tableau
-- QGis (for GIS data)
-- R (mss bij code)
+You can read through raw data using any text editor but most datasets are simply to large to understand in this manner. Here are some tools to help you out, ordered by ease of use.
+
+#### Web based exploration tools (I'll update this list later)
+
+#### Excel(windows)/Numbers(mac)/Google Sheets(web)
+Excel (and its Mac and Web based alternatives) is the most common tool used in exploring data. Some file types can be opened straight away with excel and some may need to be [imported](https://support.microsoft.com/en-us/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba). If you do this correctly, each column should represent a different variable in your dataset and each row should represent one datapoint.
+
+#### Tableau
+#### SPSS, Stata
+#### QGis (for GIS data)
 
 ### Using code
 - Javascript: 
@@ -73,6 +86,8 @@ https://journalismcourses.org/course/data-visualization-for-storytelling-and-dis
     + [Chart.js](https://www.chartjs.org/): chart generator which does a lot of work for you
 - Python
     + [https://realpython.com/pandas-python-explore-dataset/](Pandas): I'm not experienced with exploring data using Python myself but my 🐍 friends tell me you will probably use Pandas and Numpy.
+- R (mss bij code)
+- Artificial Intelligence: AI can be a very powerful tool to find patterns in data. In the past couple years, software has become available that makes it possible for people who are not schooled in AI to use AI through visual interfaces to explore data. If this is completely new to you, it's probably a bit much to dive into during the CCDL project. If you want to try it anyway, send me a message on Slack to help get you started.
 
 
 
