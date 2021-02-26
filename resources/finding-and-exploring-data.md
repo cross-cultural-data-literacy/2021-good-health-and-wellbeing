@@ -1,4 +1,6 @@
 # Finding and Exploring Data
+![Image of a person embarking on data exploration](./images/data_exploration.jpg)
+
 This guide is meant to help you get started on finding data and exploring patterns within it. It's definitely not a conclusive guide. If you're looking for something more complete, check out the books mentioned at the end of the guide.
 
 I'll cover part of this guide in a video which will be shared by Frank and Maaike. The guide may be updated and extended with new resources later. Some terms commonly used in data exploration are _italicized_ and are worth learning about separately.
@@ -73,8 +75,7 @@ You can read through raw data using any text editor but most datasets are simply
 #### Excel(windows)/Numbers(mac)/Google Sheets(web)
 Excel (and its Mac and Web based alternatives) is the most common tool used in exploring data. Some file types can be opened straight away with excel and some may need to be [imported](https://support.microsoft.com/en-us/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba). If you do this correctly, each column should represent a different variable in your dataset and each row should represent one datapoint.
 
-**Pivot Tables**
-One powerful (and slightly more advanced) feature that allows you to find _correlations_ between different variables is pivot tables. Using them you can quickly throw variables into a table to see how they relate. This is how to use pivot tables in [Excel](https://www.youtube.com/watch?v=qu-AK0Hv0b4&ab_channel=CodyBaldwin), [Numbers](https://macmost.com/simulating-pivot-tables-in-numbers.html), and [Google Sheets](https://support.google.com/docs/answer/1272900?co=GENIE.Platform%3DDesktop&hl=en).
+One powerful (and slightly more advanced) feature that allows you to find _correlations_ between different variables is _pivot tables_. Using them you can quickly throw variables into a table to see how they relate. This is how to use pivot tables in [Excel](https://www.youtube.com/watch?v=qu-AK0Hv0b4&ab_channel=CodyBaldwin), [Numbers](https://macmost.com/simulating-pivot-tables-in-numbers.html), and [Google Sheets](https://support.google.com/docs/answer/1272900?co=GENIE.Platform%3DDesktop&hl=en).
 
 #### Tableau
 [Tableau](https://www.tableau.com/) is a great way to visualize data which can be an important step in understanding it. It's **not free** but you can use a trial.
@@ -87,14 +88,19 @@ These are programs designed for statistical analysis. Takes a bit of practice to
 
 ### Using code
 If you know how to code, you can import, clean, manipulate, transform, analyze and visualize data all by yourself! It takes a lot of work to understand how to do this but it does allow for the most control over your data. If you don't know how to code yet, be aware it takes serious time to learn.
-- Javascript:
-    + [D3.js](https://d3js.org/): amazing for cleaning, transforming, exploring and visualizing data. I can highly recommend [this free course on data visualization with D3 by Curran Kelleher](https://curran.github.io/dataviz-course-2018/).
-    + [Chart.js](https://www.chartjs.org/): chart generator which does a lot of work for you in visualizing data.
-- Python
-    + [https://realpython.com/pandas-python-explore-dataset/](Pandas): I'm not experienced with exploring data using Python myself but my 🐍 friends tell me you will probably use Pandas and Numpy.
-- R
-    + R is used a lot in data science. [Here's an open source online book](https://r4ds.had.co.nz/index.html) about how to use it.
-- Artificial Intelligence: AI can be a very powerful tool to find patterns in data. In the past couple years, software has become available that makes it possible for people who are not schooled in AI to use AI through visual interfaces to explore data. If this is completely new to you, it's probably a bit much to dive into during the CCDL project. If you want to try it anyway, send me a message on Slack to help get you started.
+
+#### Javascript
+-[D3.js](https://d3js.org/): amazing for cleaning, transforming, exploring and visualizing data. I can highly recommend [this free course on data visualization with D3 by Curran Kelleher](https://curran.github.io/dataviz-course-2018/).
+- [Chart.js](https://www.chartjs.org/): chart generator which does a lot of work for you in visualizing data.
+
+#### Python
+- [https://realpython.com/pandas-python-explore-dataset/](Pandas): I'm not experienced with exploring data using Python myself but my 🐍 friends tell me you will probably use Pandas and Numpy.
+
+#### R
+- R is used a lot in data science. [Here's an open source online book](https://r4ds.had.co.nz/index.html) about how to use it.
+
+#### Artificial Intelligence
+AI can be a very powerful tool to find patterns in data. In the past couple years, software has become available that makes it possible for people who are not schooled in AI to use AI through visual interfaces to explore data. If this is completely new to you, it's probably a bit much to dive into during the CCDL project. If you want to try it anyway, send me a message on Slack to help get you started.
 
 ## More about data exploration
 - [Basic intro into understanding data](https://towardsdatascience.com/what-is-data-8f94ae3a56b4)
