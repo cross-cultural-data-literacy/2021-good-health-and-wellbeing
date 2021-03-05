@@ -1,3 +1,5 @@
+<!-- TODO: Add a bit on qualitative data and on self collected data -->
+
 # Finding and Exploring Data
 ![Image of a person embarking on data exploration](../images/data_exploration.png)
 
@@ -7,21 +9,24 @@ This guide is meant to help you get started on finding data and exploring patter
 
 I'll cover part of this guide in a video which will be shared by Frank and Maaike. The guide may be updated and extended with new resources later. Some terms commonly used in data exploration are _italicized_ and are worth learning about separately.
 
-## Sources of data
-There are many different types of data. In this section I'm not talking about the nature of the data or even its contents, I'm just focusing on the differences in how you as an interpretor have to deal with data. This depends mostly on the origin and format of the data.
+## Quantitative Data sources
+There are many different types of data. In this section I'm not talking about the nature of the data or even its contents, I'm just focusing on the differences in how you as an interpretor have to deal with data. This depends mostly on the origin and format of the data. As _qualitative data_ is covered by other parts of the CCDL program I'll stick to _quantitative data_ in this guide.
 
-### Difference between a source and a data source
+**Difference between a source and a data source**
+
 A reference you found supporting a claim you make is **not** a data source. If your project makes the claim that mental health has declined and you reference an article that describes a 40% increase in new patients for psychiatrists, that is not a data source, simply a reference. If the article includes a graph that shows the increase, that's also not a data source. The data behind that graph is, however. Make a clear difference in your work between sources you use and actual data you use. When we talk about data in this guide, we mean data as a collection of datapoints.
 
-- Data in visualizations in articles/papers/books: Data is often visualized in articles and other story formats. If the article is any good, the original source of data can be linked. You should always check out the original source and try to reach your own conclusions from the source when possible. If you end up copying anything straight from an article, always mention the article as the source (and the original source of the data if possible)
-- Data in an interactive visualization: These days much of the data you see has already been visualized in a way that helps you understand patterns and allows you to explore the data visually. As with static visualizations in articles, always remember you are seeing a certain view of the data that was designed with a certain purpose. It may be misleading. Often, the original data source will be linked. [This live Corona tracker map](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) is a good example. It shows the original sources at the bottom.
-- Raw data: When you get to the original raw data you basically have a file or a set of files. On the one hand it means you'll have to do more work to understand the data but on the other hand it also means you get the data in its purest form. You have all the freedom to explore and analyze it. In the exploration section I'll show you how to do that.
-- Metadata: This is a special kind of data that describes something else. For instance, the file type of a dataset, the number of entries in the dataset, the age of all people described in a dataset, the collectors of the data etc. _Metadata_ helps you understand data. Raw data can not be interpreted without metadata. If all you have is a file of numbers, there's no way to understand what that data is about.
-- Data gathered by you: In the CCDL project you're very much encouraged to gather data yourself, whether it be qualitative or quantitative. This is especially powerful if you can get other group members to gather the same data in a different location so you can actually make your work cross-cultural. Think long and hard about the format of the data you want to collect. Make sure all collectors have the same understanding of the data to be collected. Use well-chosen and understood variable names for your data and be sure to collect metadata as well. If you ask people in the street what hobbies they've picked up to help them survive the Covid lockdown, be sure to collect the metadata of how old they are for instance, as that could later be relevant in understanding differences in your dataset and the dataset collected by someone else. In general, the more metadata you collect, the better. You never know what you might need later and it's often impossible to go back and collect the metadata you need.
+### Sources
+- **Data in visualizations** in articles/papers/books: Data is often visualized in articles and other story formats. If the article is any good, the original source of data can be linked. You should always check out the original source and try to reach your own conclusions from the source when possible. If you end up copying anything straight from an article, always mention the article as the source (and the original source of the data if possible)
+- **Data in an interactive visualization**: These days much of the data you see has already been visualized in a way that helps you understand patterns and allows you to explore the data visually. As with static visualizations in articles, always remember you are seeing a certain view of the data that was designed with a certain purpose. It may be misleading. Often, the original data source will be linked. [This live Corona tracker map](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) is a good example. It shows the original sources at the bottom.
+- **Raw data**: When you get to the original raw data you basically have a file or a set of files. On the one hand it means you'll have to do more work to understand the data but on the other hand it also means you get the data in its purest form. You have all the freedom to explore and analyze it. In the exploration section I'll show you how to do that.
+- **Metadata**: This is a special kind of data that describes something else. For instance, the file type of a dataset, the number of entries in the dataset, the age of all people described in a dataset, the collectors of the data etc. _Metadata_ helps you understand data. Raw data can not be interpreted without metadata. If all you have is a file of numbers, there's no way to understand what that data is about.
+- **Self collected data**: In the CCDL project you're very much encouraged to gather data yourself, whether it be qualitative or quantitative. This is especially powerful if you can get other group members to gather the same data in a different location so you can actually make your work cross-cultural. Think long and hard about the format of the data you want to collect. Make sure all collectors have the same understanding of the data to be collected. Use well-chosen and understood variable names for your data and be sure to collect metadata as well. If you ask people in the street what hobbies they've picked up to help them survive the Covid lockdown, be sure to collect the metadata of how old they are for instance, as that could later be relevant in understanding differences in your dataset and the dataset collected by someone else. In general, the more metadata you collect, the better. You never know what you might need later and it's often impossible to go back and collect the metadata you need.
 
-The rest of this guide will focus on working with raw data. Data in articles and interactive visualizations has already been turned into 'information' which you can process by understanding the visualization.
+The rest of this guide will focus on working with **raw data**. Data in articles and interactive visualizations has already been turned into 'information' which you can process by understanding the visualization.
 
 ## Finding Data
+If you want to find datasets that help you answer your research question, you will need some _keywords_ to search for. These words are typically used within the scope of your research. It can sometimes help to look up synonyms of a keyword as well. For instance 'dog'+'aspects', 'dog'+'traits', 'canine'+'aspects' etc.
 - [Google dataset search](https://datasetsearch.research.google.com/): Very powerful dataset search tool powered by google.
 - [Kaggle](https://www.kaggle.com/): Great source for raw datasets on virtually any topic.
 - [Public datasets](https://github.com/awesomedata/awesome-public-datasets): An up-to-date list of links to datasets spanning a wide array of topics
@@ -66,7 +71,7 @@ Try to understand what the data can tell you about a few individual datapoints b
 
 ### Understanding patterns
 Start by writing down expectations you have about the data. For instance: I expect more customers visit the shop right after 17:00 because that's when people get out of work. These expectations can relate to one ore more columns. Here is an expectation related to at least two columns: I expect people with higher income to travel more often. 
-Looking for patterns in your data and understanding them is an art of its own. Here are some great starters on the subject. (@maaike) 
+Looking for patterns in your data and understanding them is an art of its own. You'll learn more about this later in the CCDL programme.
 
 ### Visualizing data
 Some patterns only become visible when you visualize data. For instance by making a linechart of temperatures over time. Many tools have built-in visualization features that help you create different types of _graphs_.
@@ -108,3 +113,10 @@ AI can be a very powerful tool to find patterns in data. In the past couple year
 - [Basic intro into understanding data](https://towardsdatascience.com/what-is-data-8f94ae3a56b4)
 - [Course on Data Visualization for Storytelling and Discovery by Alberto Cairo](https://journalismcourses.org/course/data-visualization-for-storytelling-and-discovery/)
 - [Book on data visualization by Andy Kirk](https://www.amazon.com/Data-Visualisation-Handbook-Driven-Design/dp/1473912148)
+
+## Where to find health related data
+Here are some helpful links provided by Reinhard Tockner
+- [Unicef](https://data.unicef.org/topic/child-health/immunization/)
+- [World Health Organization](https://www.who.int/data/collections)
+- [Our World In Data](https://ourworldindata.org/covid-vaccinations)
+- [World bank](https://data.worldbank.org/topic/health)
